@@ -66,8 +66,8 @@ def get_average_age_for_season(data, season)
     if season_number == season
       contestant_array.each do |attribute, value|
         if attribute == "age"
-          total += value.to_f
           binding.pry
+          total += value.to_f
         end
       end
     end
